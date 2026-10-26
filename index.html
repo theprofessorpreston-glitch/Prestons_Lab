@@ -1,80 +1,11 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Preston's Lab — QUIZBOUND</title>
-<meta name="description" content="QUIZBOUND is a doodle-style learning adventure starring Encore.">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main class="page">
-    <header class="topbar">
-      <div class="brand">
-        <div class="brand-title">PRESTON'S LAB</div>
-        <div class="brand-sub">QUIZBOUND SHOWCASE</div>
-      </div>
-      <a class="play-link" href="games/quizbound.html">PLAY NOW</a>
-    </header>
-
-    <section class="main-card">
-      <div class="copy-side">
-        <div class="eyebrow">WELCOME TO QUIZBOUND</div>
-        <h1 class="logo" aria-label="Quizbound">
-          <span class="c1">Q</span><span class="c2">U</span><span class="c2">I</span><span class="c3">Z</span><span class="c4">B</span><span class="c4">O</span><span class="c5">U</span><span class="c1">N</span><span class="c2">D</span>
-        </h1>
-        <div class="tagline">LEARN • FIGHT • LEVEL UP</div>
-        <p class="lead">A hand-drawn learning adventure where you study facts, answer questions, and battle your way through knowledge with Encore.</p>
-
-        <div class="steps">
-          <div class="step yellow">1. Pick a world</div>
-          <div class="step blue">2. Answer questions</div>
-          <div class="step green">3. Battle Encore</div>
-        </div>
-
-        <div class="buttons">
-          <a class="button yellow-btn" href="games/quizbound.html">▶ PLAY QUIZBOUND</a>
-          <a class="button white-btn" href="#details">SEE DETAILS</a>
-        </div>
-      </div>
-
-      <div class="art-side">
-        <div class="art-card">
-          <div class="star s1">★</div>
-          <div class="star s2">✦</div>
-          <img src="assets/encore.png" alt="Encore" class="encore">
-          <div class="speech">Hi! I'm Encore!</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="details-card" id="details">
-      <div class="pill-row">
-        <span class="pill yellow-pill">PLAYABLE NOW</span>
-        <span class="pill white-pill">BROWSER GAME</span>
-      </div>
-      <h2>What makes QUIZBOUND fun?</h2>
-      <div class="features">
-        <div class="feature pink"><strong>Study Mode</strong><span>Learn facts before you quiz.</span></div>
-        <div class="feature blue"><strong>Trivia Mode</strong><span>Jump into quick questions.</span></div>
-        <div class="feature green"><strong>Battle System</strong><span>Fight Encore with knowledge.</span></div>
-        <div class="feature yellow"><strong>Progress</strong><span>Earn XP and build mastery.</span></div>
-      </div>
-      <div class="bottom-row">
-        <div class="chips">
-          <span class="chip">Doodle style</span>
-          <span class="chip">Geography learning</span>
-          <span class="chip">Original Encore</span>
-        </div>
-        <a class="button yellow-btn small-play" href="games/quizbound.html">PLAY GAME</a>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <span>Made in Preston's Lab.</span>
-      <span>© <span id="year"></span></span>
-    </footer>
-  </main>
-<script src="projects.js"></script>
-</body>
-</html>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Preston's Lab — My Projects</title><meta name="description" content="A collection of projects, games, music and creations from Preston's Lab."><style>
+:root{--ink:#26212a;--paper:#fffaf0;--yellow:#ffdf83;--blue:#aaddf3;--muted:#776773}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;background:repeating-linear-gradient(0deg,transparent 0 39px,#a9937b1d 40px 41px),#f2e7d6;color:var(--ink);font-family:'Trebuchet MS',Verdana,sans-serif;display:flex;align-items:center;justify-content:center;padding:24px}
+a{color:inherit;text-decoration:none}a:focus-visible{outline:4px solid #559ee0;outline-offset:4px}.page{width:min(900px,100%);border:3px solid var(--ink);border-radius:27px;background:var(--paper);box-shadow:8px 10px 0 #4b394331;padding:clamp(20px,4vw,38px);position:relative}
+.header{display:flex;justify-content:space-between;align-items:center;gap:20px;border-bottom:3px dashed #ab9b86;padding-bottom:22px}.brand{font-weight:1000;font-size:clamp(26px,4.5vw,42px);letter-spacing:-.06em;line-height:1}.star{color:#f6a65b;margin-right:10px}.subtitle{font-size:12px;font-weight:900;letter-spacing:.18em;color:#675a63;margin-top:8px}.tag{background:#c7e9cf;border:2px solid var(--ink);border-radius:999px;padding:8px 12px;font-size:12px;font-weight:900;white-space:nowrap}
+.intro{margin:23px 0 20px}.intro h1{font-size:clamp(22px,3.7vw,36px);letter-spacing:-.04em;margin:0 0 5px}.intro p{color:var(--muted);font-size:16px;margin:0;line-height:1.55}
+.label{font-size:12px;letter-spacing:.17em;font-weight:1000;margin-bottom:11px;color:#726277}.project{display:flex;align-items:center;gap:24px;border:3px solid var(--ink);border-radius:21px;background:var(--yellow);box-shadow:5px 6px 0 #2a232a2b;padding:16px 22px;transition:transform .15s,box-shadow .15s}.project:hover{transform:translateY(-3px);box-shadow:5px 9px 0 #2a232a2b}.character{width:104px;height:118px;object-fit:contain;flex:none;filter:drop-shadow(0 5px 1px #20182520)}.project-info{flex:1;min-width:0}.project-info h2{font-size:clamp(26px,4vw,38px);margin:0 0 5px;letter-spacing:-.06em}.project-info p{margin:0;color:#4d414b;line-height:1.45;font-weight:650}.open{border:2px solid var(--ink);background:#fff9e6;border-radius:13px;padding:10px 16px;font-weight:1000;white-space:nowrap;box-shadow:3px 3px 0 #33252926}
+.future{margin:18px 0 0;padding:13px 16px;border:2px dashed #ad9b86;border-radius:15px;background:#fff8ea;display:flex;gap:12px;align-items:center;color:#736573}.future strong{color:#403743}.footer{display:flex;justify-content:space-between;gap:10px;border-top:3px dashed #ab9b86;padding-top:16px;margin-top:24px;color:#7b6c75;font-size:12px;font-weight:800}
+@media(max-width:620px){body{align-items:flex-start;padding:11px}.page{padding:18px;border-radius:20px}.tag{display:none}.project{gap:12px;padding:14px}.character{width:74px;height:92px}.open{padding:9px 10px;font-size:12px}.project-info p{font-size:13px}.future{font-size:13px}}
+@media(max-width:390px){.project{flex-wrap:wrap}.open{margin-left:auto}.character{width:72px;height:85px}}
+</style></head><body><main class="page"><header class="header"><div><div class="brand"><span class="star">✦</span>PRESTON'S LAB</div><div class="subtitle">A HOME FOR THINGS I MAKE</div></div><span class="tag">PROJECT COLLECTION</span></header><section class="intro"><h1>Welcome to my workshop!</h1><p>Games, songs, drawings, stories, and whatever else I dream up. Here's what I've made so far.</p></section><section aria-label="My projects"><div class="label">MY PROJECTS · 01</div><a class="project" href="games/quizbound.html" aria-label="Play QUIZBOUND"><img class="character" src="assets/encore.png" alt="Encore, the QUIZBOUND host"><div class="project-info"><h2>QUIZBOUND</h2><p>A doodle-style learning game starring Encore.</p></div><span class="open">PLAY ↗</span></a><div class="future"><span aria-hidden="true">✎</span><span><strong>More projects coming later.</strong> This collection will grow as I create.</span></div></section><footer class="footer"><span>MADE WITH IMAGINATION</span><span>PRESTON'S LAB ✦</span></footer></main></body></html>
