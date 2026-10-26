@@ -4,84 +4,79 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Preston's Lab — QUIZBOUND</title>
-  <meta name="description" content="Preston's Lab is the home of QUIZBOUND, a doodle-style learning adventure starring Encore.">
+  <meta name="description" content="Preston's Lab: the home of QUIZBOUND, a doodle-style learning adventure starring Encore.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="site-shell">
+  <main class="page" id="top">
     <header class="topbar">
       <a class="brand" href="#top">
-        <span class="brand-star">✦</span>
+        <span class="brand-mark">✦</span>
         <span>
           <strong>PRESTON'S LAB</strong>
-          <small>DOODLES, GAMES & BIG IDEAS</small>
+          <small>QUIZBOUND SHOWCASE</small>
         </span>
       </a>
       <nav class="nav">
         <a href="#quizbound">QUIZBOUND</a>
-        <a href="#about">ABOUT</a>
+        <a href="games/quizbound.html">PLAY</a>
       </nav>
     </header>
 
-    <section class="hero" id="top">
-      <div class="hero-copy">
-        <p class="eyebrow">WELCOME TO THE LAB</p>
-        <h1><span class="word blue">QUIZ</span><span class="word orange">BOUND</span></h1>
-        <p class="lead">A doodle-style learning adventure where you study, answer questions, and battle your way through knowledge with Encore.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="games/quizbound.html">PLAY QUIZBOUND</a>
-          <a class="button secondary" href="#quizbound">SEE THE PROJECT</a>
+    <section class="hero-shell">
+      <section class="hero-copy">
+        <p class="eyebrow">WELCOME TO THE COLLECTION</p>
+        <h1 class="logo">
+          <span class="q">Q</span><span class="u">U</span><span class="i">I</span><span class="z">Z</span><span class="b">B</span><span class="o">O</span><span class="u2">U</span><span class="n">N</span><span class="d">D</span>
+        </h1>
+        <p class="tagline">Learn • Fight • Level Up</p>
+        <p class="lead">A hand-drawn learning adventure where you study geography, answer questions, and battle your way through knowledge with Encore.</p>
+        <div class="cta-row">
+          <a class="button yellow" href="games/quizbound.html">▶ PLAY QUIZBOUND</a>
+          <a class="button blue" href="#quizbound">SEE THE GAME</a>
         </div>
-        <ul class="quick-notes">
-          <li>Playable in your browser</li>
-          <li>Built around geography learning</li>
-          <li>Starring your original character, Encore</li>
-        </ul>
-      </div>
+        <div class="mini-steps">
+          <span>1. Pick a world</span>
+          <span>2. Answer questions</span>
+          <span>3. Battle Encore</span>
+        </div>
+      </section>
 
-      <div class="hero-card" aria-label="Encore illustration card">
-        <div class="tape tape-left"></div>
-        <div class="tape tape-right"></div>
-        <div class="card-lines"></div>
-        <img src="assets/encore-doodle.png" alt="Encore doodle" class="encore-art">
+      <aside class="hero-card">
+        <div class="note-tab tab-left"></div>
+        <div class="note-tab tab-right"></div>
+        <div class="sparkle one">★</div>
+        <div class="sparkle two">✦</div>
+        <img src="assets/encore-doodle.png" alt="Encore doodle" class="encore">
         <div class="speech">Hi! I'm Encore!</div>
-      </div>
+      </aside>
     </section>
 
-    <section class="feature" id="quizbound">
-      <div class="section-title">
-        <p class="eyebrow">CURRENTLY FEATURED</p>
-        <h2>One project. One spotlight.</h2>
-      </div>
-
-      <article class="project-card">
-        <div class="project-art">
-          <img src="assets/encore-doodle.png" alt="Encore doodle for QUIZBOUND">
-        </div>
-        <div class="project-body">
+    <section class="project-panel" id="quizbound">
+      <div class="project-main">
+        <div class="project-copy">
           <div class="pill-row">
             <span class="pill yellow">PLAYABLE NOW</span>
-            <span class="pill white">GAME</span>
+            <span class="pill white">BROWSER GAME</span>
           </div>
-          <h3>QUIZBOUND</h3>
-          <p>QUIZBOUND is your hand-drawn learning game. Study facts, answer quiz questions, and face Encore in a playful battle system as you level up what you know.</p>
-          <div class="project-points">
-            <span>• Study mode</span>
-            <span>• Trivia mode</span>
-            <span>• Fast Track learning</span>
-            <span>• Encore battle system</span>
-          </div>
-          <div class="action-row">
-            <a class="button primary" href="games/quizbound.html">PLAY THE GAME</a>
-          </div>
+          <h2>QUIZBOUND</h2>
+          <p>Study facts, use trivia, grow your progress, and face Encore in a doodle-style battle system. Right now, this site is all about one thing: making QUIZBOUND easy to share and play.</p>
         </div>
-      </article>
-    </section>
-
-    <section class="about-card" id="about">
-      <p class="eyebrow">ABOUT THIS SITE</p>
-      <h2>Simple for now. Bigger later.</h2>
-      <p>Right now this site is focused on QUIZBOUND only. As more projects become ready, Preston's Lab can grow into a home for board games, songs, stories, and future experiments.</p>
+        <div class="stat-grid">
+          <div class="stat green"><strong>Study</strong><span>learn facts first</span></div>
+          <div class="stat pink"><strong>Trivia</strong><span>quick question mode</span></div>
+          <div class="stat blue"><strong>Battle</strong><span>fight with knowledge</span></div>
+          <div class="stat yellow"><strong>Progress</strong><span>xp, badges, mastery</span></div>
+        </div>
+      </div>
+      <div class="bottom-bar">
+        <div class="chips">
+          <span class="chip">Geography worlds</span>
+          <span class="chip">Fast Track</span>
+          <span class="chip">Original Encore</span>
+        </div>
+        <a class="button yellow play-final" href="games/quizbound.html">PLAY GAME</a>
+      </div>
     </section>
 
     <footer class="footer">
